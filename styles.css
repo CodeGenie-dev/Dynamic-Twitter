@@ -1,0 +1,260 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin: 0;
+    font-weight: 900;
+}
+h2{
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+p img {
+    width: 25px;
+}
+strong {
+    color: black;
+}
+#container-main {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #dbdada
+}
+#header-cntr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header-cntr p {
+    color: grey;
+}
+.timeline-btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #1BC9FC;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.timeline-btn:hover {
+    background-color: lightblue;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+.arrows {
+    height: 25px;
+    width: 30px;
+}
+.arrow-left {
+    padding: 30px 30px 30px 20px;
+}
+.arrow-right {
+    padding: 30px 20px 30px 30px;
+}
+.header-text {
+    display: flex;
+    align-items: center;
+}
+.header-text img {
+    padding-left: 10px;
+    width: 30px;
+}
+.twitter-verified {
+    display: flex;
+    align-items: center;
+}
+.twitter-verified img {
+    width: 20px;
+    padding-left: 5px;
+}
+span img {
+    width: 20px;
+    padding: 0 5px;
+}
+/* .cover-photo-cntr {
+    background-image: url('assets/elonmusk-cover.jpeg');
+    height: 268px;
+    max-height: 268px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.profile-details-cntr {    
+    padding: 0 20px;
+}
+.pd-top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: -85px;
+}
+.avatar {
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+.btn {
+    background-color: #1fa1f1;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+.tweet-avatar {
+    height: 60px;
+    border-radius: 100%;
+}
+.selector {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f1f1;
+}
+.tab {
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+.tab:hover {
+    cursor: pointer;
+    background-color: #fdfffd;
+}
+.content {
+    padding: 10px;
+}
+.content-body {
+    display: flex;
+}
+.tab-active {
+    color: #1fa1f1;
+    border-bottom: 2px solid #1fa1f1;
+}
+.tweet-body {
+    padding-left: 10px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.cover-img > img {
+    width: 100%;
+    height: auto;
+}
+.profile-top {        
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 230px;
+}
+.avatar-n-info {
+    position: relative;
+    top: -80px;
+}
+.avatar-n-info > img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.avatar-n-info > p {
+    margin: 10px 0;
+    color: grey;
+}
+.avatar-n-info p:nth-of-type(4) span {
+    padding-left: 20px;
+}
+.avatar-n-info span {
+    padding-right: 20px;
+}
+.follow-btn {
+    margin-top: 10px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #1BC9FC;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+.selector {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #dbdada;
+}
+.tab {
+    padding: 10px;
+    flex: 1 1 auto;
+    text-align: center;
+    color: grey;
+}
+.tab:hover {
+    cursor: pointer;
+    background-color: rgba(29, 161, 242, 0.1);
+}
+.tab-active {
+    color: #1BC9FC;
+    border-bottom: 3px solid #1EA1F1;
+}
+.tweet-avatar {
+    width: 70px;
+    border-radius: 50%;
+}
+.tweet-container {
+    display: flex;
+    padding: 20px 30px;
+    border-bottom: 1px solid #dbdada;
+    align-items: flex-start;
+}
+.tweet-body {
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+.tweet-body span {
+    font-weight: 100;
+    color: grey;
+    font-size: 18px;
+}
+.tweet-body p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 5px;
+    color: grey;
+}
+.tab-username {
+    display: flex;
+    align-items: center;
+}
+.tab-username img {
+    width: 20px;
+    padding: 0 5px;
+}
+.tweet-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 15px;
+}
+.tweet-icon a {
+    color: rgb(97,117,136);
+    transition: ease-in .3s;
+}
+.reply a:hover, .share a:hover {
+    color: lightblue;
+    transition: ease-in .3s;
+}
+.retweet a:hover {
+    color: lightgreen;
+    transition: ease-in .3s;
+}
+.like a:hover {
+    color: red;
+    transition: ease-in .3s;
+}

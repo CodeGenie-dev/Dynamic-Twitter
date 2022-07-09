@@ -1,0 +1,81 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin: 0;
+    font-weight: 900;
+}
+h2{
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+#timeline-container {
+    max-width: 800px;
+    border: 1px solid #dbdada;
+    height: auto;
+    margin: auto;
+}
+.header {
+    text-align: center;
+    border-bottom: 1px solid #dbdada;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    padding: 20px 30px;
+    border-bottom: 1px solid #dbdada;
+    align-items: flex-start;
+}
+.tweet-avatar {
+    width: 70px;
+    border-radius: 50%;
+}
+.tweet-body {
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+.tweet-body span {
+    font-weight: 100;
+    color: grey;
+    font-size: 18px;
+}
+.tweet-body p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 5px;
+    color: grey;
+}
+.tab-username {
+    display: flex;
+    align-items: center;
+}
+.tab-username img {
+    width: 20px;
+    padding: 0 5px;
+}
+.tweet-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 15px;
+}
+.tweet-icon a {
+    color: rgb(97,117,136);
+    transition: ease-in .3s;
+}
+.reply a:hover, .share a:hover {
+    color: lightblue;
+    transition: ease-in .3s;
+}
+.retweet a:hover {
+    color: lightgreen;
+    transition: ease-in .3s;
+}
+.like a:hover {
+    color: red;
+    transition: ease-in .3s;
+}
